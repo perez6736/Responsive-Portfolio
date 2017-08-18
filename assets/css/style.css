@@ -1,0 +1,233 @@
+html {
+	height: 100%;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #ededed;
+
+}
+
+.header{
+	width:100%;
+	height:75px;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #ffffff;
+}
+
+.name{
+	height:50px;
+	width:200px;
+	background-color: #4aaaa5;
+	color: #f4fcfd;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 25px;
+	margin-left: 100px;
+	float: left;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	
+}
+
+.Navigation-links {
+	float: left;
+	padding-left: 390px;
+	background-color: white;
+	color:#5f5f5f;
+}
+
+a:link {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #777777;
+}
+
+#Navigation-links-About{	
+    left: 400px;
+	float: left;
+	height:35px;
+	width:100px;
+	text-align: center;
+	padding-top: 30px;
+	color: #777777;
+
+}
+
+#Navigation-links-Portofolio{
+    left: 450px;
+	float: left;
+	height:35px;
+	width:100px;
+	text-align: center;
+	padding-top: 30px;
+	color: #777777;
+}
+
+#Navigation-links-Contact{
+    left: 500px;
+	float: left;
+	height:35px;
+	width:100px;
+	text-align: center;
+	padding-top: 30px;
+	color: #777777;
+}
+
+.body-container{
+    width: 700px;
+    height: 600px;
+    background: white;
+    margin-left: 100px;
+    margin-top: 35px;
+    margin-right: 20px;
+    float: left;
+	
+}
+
+#content-picture{
+	float: left;
+	margin-right:10px;
+	margin-bottom:10px;
+
+}
+
+
+#content-text{
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-indent: 30px;
+}
+
+.content{
+	padding: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+hr.style1{
+	border-top: 1px solid #cccccc;
+	width:95%; 
+}
+
+#body-Header{
+	font-size: 24px;
+	color: #4aaaa5;
+	padding-left: 20px;
+	padding-top: 10px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+.contactMe-Social{
+	float: left;
+    margin: 35px;
+    height: 150px;
+    width: 260px;
+    background: white;
+}
+
+.social-icons{
+	margin-left: 35px;
+	padding: 10px;
+	margin-left: 35px;
+}
+
+#Contact-me{
+	font-size: 24px;
+	color: #4aaaa5;
+	padding-left: 20px;
+	padding-top: 10px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	
+}
+
+#github-Icon{
+	height: 50px;
+	width: 50px;
+}
+
+#Linkedin-Icon{
+	height: 50px;
+	width: 50px;
+}
+
+#stackoverflow-Icon{
+	height: 50px;
+	width: 50px;
+}
+
+
+.footer{
+	margin-top: 700px; /* just made the margin slightly larger than the height of the body so its never in the way - resizing is a big issue in this */
+	background-color: #666666;
+	width: 100%;
+	height: 25px;
+	text-align: center;
+	padding:25px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.textbox{
+	width: 95%;
+	margin-left: 8px;
+}
+.textarea{
+	width: 95%;
+	height: 300px;
+	margin-left: 8px;
+}
+
+.contact-headers{
+	float: left;
+	padding: 5px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+.button-submit{
+	background-color:#4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.placeholder-image{
+
+	height: 160px;
+    width: 200px;
+}
+
+.placeholder-projects{
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+}
+
+.placeholder-text{
+	position: relative;
+    bottom: 50px;
+    width: 200px;
+    height: 30px;
+    background-color: #4AAAA5;
+    text-align: center;
+    padding-top: 10px;
+    color: #E9F1E9;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
