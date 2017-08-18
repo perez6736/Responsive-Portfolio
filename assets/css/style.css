@@ -231,3 +231,15 @@ hr.style1{
     font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
+
+@media screen (max-width: 980px){
+
+}
+
+@media screen (max-width: 768px){
+	
+}
+
+@media screen (max-width: 640px){
+	
+}
