@@ -81,7 +81,7 @@ a:visited {
 	color: #777777;
 }
 
-.body-container{
+.body-container-about, .body-container-contact, .body-container-portfolio{
     width: 700px;
     height: 600px;
     background: white;
@@ -126,7 +126,7 @@ hr.style1{
 
 }
 
-.contactMe-Social{
+.contactMe-Social-about, .contactMe-Social-contact, .contactMe-Social-portfolio{
 	float: left;
     margin: 35px;
     height: 150px;
@@ -134,7 +134,7 @@ hr.style1{
     background: white;
 }
 
-.social-icons{
+.social-icons, .social-icons-contact{
 	margin-left: 35px;
 	padding: 10px;
 	margin-left: 35px;
@@ -166,7 +166,7 @@ hr.style1{
 }
 
 
-.footer{
+.footer-about, .footer-contact, .footer-portfolio{
 	margin-top: 700px; /* just made the margin slightly larger than the height of the body so its never in the way - resizing is a big issue in this */
 	background-color: #666666;
 	width: 100%;
@@ -231,15 +231,123 @@ hr.style1{
     font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
+@media screen and (max-width: 1200px){ /* I did this so when you resize it gradually changes */
+	.Navigation-links{
+		padding-left: 350px;
+		
+	}
 
-@media screen (max-width: 980px){
+	.body-container{
+		width: 600px;
+		height: 700px;
+	}
+
+	.footer-about{
+		margin-top: 850px;
+	}
+}
+
+
+
+@media screen and (max-width: 980px){
+
+	.Navigation-links{
+		padding-left: 300px;
+		
+	}
+
+	.body-container-about{
+		width: 500px;
+		height: 850px;
+	}
+
+	.body-container-contact{
+		width: 500px;
+		height: 625px;
+	}
+
+	.body-container-portfolio{
+		width: 250px;
+		height:1075px;
+	}
+
+	.contactMe-Social-about{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.contactMe-Social-contact{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.contactMe-Social-portfolio{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.footer-portfolio{
+		margin-top: 1150px;
+	}
+
+	.footer-about{
+		margin-top: 900px;
+	}
 
 }
 
-@media screen (max-width: 768px){
-	
+@media screen and (max-width: 918px){
+	.Navigation-links{
+		padding-left: 150px;
+		
+	}
 }
 
-@media screen (max-width: 640px){
+@media screen and (max-width: 768px){
+
+	.Navigation-links{
+		padding-left: 50px;
+		
+	}
+
+	.contactMe-Social-about{
+		margin-left: 100px;
+		width: 500px
+	}
+
+	.contactMe-Social-contact{
+		margin-left: 100px;
+		width: 500px
+	}	
+
+	.contactMe-Social-portfolio{
+		margin-left: 100px;
+		width: 500px
+	}
+	.footer-contact{
+		margin-top: 900px;
+	}
+
+	.footer-about{
+		margin-top: 1100px;
+	}
+
+	.body-container-portfolio{
+		width: 500px;
+		height:700px;
+	}
+
+	.body-container-contact{
+		width: 500px;
+		height: 625px;
+	}
+
+	.footer-portfolio{
+		margin-top: 950px;
+	}
+
+}
+
+@media screen and (max-width: 640px){
 	
 }
