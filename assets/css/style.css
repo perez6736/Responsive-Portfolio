@@ -349,5 +349,65 @@ hr.style1{
 }
 
 @media screen and (max-width: 640px){
-	
+	.name{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.Navigation-links{
+		width: 100%;
+		padding-left: 100px;
+		
+	}
+
+	#Navigation-links-Portofolio{
+		padding-left: 50px;
+	}
+
+	#Navigation-links-Contact{
+		padding-left: 50px;
+	}
+
+	.body-container-contact{
+		margin-left: 50px;
+		height: 575px;
+	}
+
+	.contactMe-Social-contact{
+		margin-left: 50px;
+	}
+
+	.footer-contact{
+		margin-top: 900px;
+	}
+
+	.contactMe-Social-about{
+		margin-left: 50px;
+		width: 500px
+	}
+
+	.body-container-about{
+		margin-left: 50px;
+		width: 500px;
+		height: 850px;
+	}
+
+	.footer-about{
+		margin-top: 1170px;
+	}
+
+	.body-container-portfolio{
+		width: 250px;
+		height:1075px;
+		margin-left: 175px;
+	}
+	.contactMe-Social-portfolio{
+		margin-left: 175px;
+		margin-right: 5px;
+		width: 250px;
+
+	}
+
+	.footer-portfolio{
+		margin-top: 1400px;
+	}
 }
